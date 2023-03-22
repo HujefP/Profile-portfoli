@@ -177,7 +177,7 @@
 }
 
 .odd {
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 .odd:before {
@@ -230,12 +230,23 @@
 .git:hover{
     box-shadow: 3px 3px 10px black;
 }
-
-
-
-
+.about-me{
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+.detailskill-icon{
+    width: 100px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.detail{
+    width: 40%;
+}
 .footer {
-    border: 1px solid blue;
     margin-top: 150px;
 }
 @media screen and(max-width:600px) {
@@ -246,6 +257,7 @@
  }
  .card{
     width: 400px;
+    margin: 0px;
  }
     
 }
