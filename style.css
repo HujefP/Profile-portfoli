@@ -288,7 +288,6 @@ h1{
  }
  .card{
     width: 400px;
-    transform: scale(0.7);
     margin: 0px;
     flex-wrap: wrap;
  }

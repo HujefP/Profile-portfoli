@@ -19,5 +19,5 @@ let mail= document.getElementById('email');
 function submit(){
     let ask = document.getElementById('ask');
     ask.style.display='none';
-    
+    btn.style.display= 'none'
 }
