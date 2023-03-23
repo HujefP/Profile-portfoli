@@ -232,7 +232,7 @@
 }
 .about-me{
     width: 100%;
-    margin: 5px;
+    margin: 10px;
     display: flex;
     padding: 5px;
     justify-content: space-around;
@@ -249,6 +249,36 @@
 .footer {
     margin-top: 150px;
 }
+.form{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+input{
+    width: 60%;
+    margin-block: 5px;
+    margin-left: 20%;
+}
+.Question{
+    width: 60%;
+    margin-block: 5px;
+    margin-left: 20%;
+}
+button{
+    margin-left: 50%;
+}
+h1{
+    text-transform: capitalize;
+}
+.mail{
+    display: none;
+}
+
+
+
+
+   /* medie query */
+
 @media screen and(max-width:600px) {
  .main{
     margin-left: 0px;
@@ -258,6 +288,17 @@
  .card{
     width: 400px;
     margin: 0px;
+    flex-wrap: wrap;
+ }
+ .odd{
+    width: 500px;
+    margin: 0%;
+    margin-right: 0;
+ }
+ .even{
+    width: 500px;
+    margin: 0%;
+    margin-left: 0;
  }
     
 }
