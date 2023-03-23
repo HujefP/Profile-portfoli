@@ -15,3 +15,9 @@ let mail= document.getElementById('email');
  mail.value=''
  mail.style.display= 'none'
 }
+
+function submit(){
+    let ask = document.getElementById('ask');
+    ask.style.display='none';
+    
+}

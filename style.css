@@ -284,9 +284,11 @@ h1{
     margin-left: 0px;
     margin-right: 0px;
     flex-wrap: nowrap;
+    box-sizing: border-box;
  }
  .card{
     width: 400px;
+    transform: scale(0.7);
     margin: 0px;
     flex-wrap: wrap;
  }
